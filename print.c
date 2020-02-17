@@ -1,5 +1,10 @@
 include<stdio.h>
 int main(){
-    printf("hello");
+    int a; 
+
+    printf("hello\n");
+    scanf("your name? %d", a);
+    printf("%d", a);
+
     return 0; 
 }
